@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		CBEDF073243711300092AA09 /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEDF076243711300092AA09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CBEDF07D2437113E0092AA09 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = input.txt; path = "/Users/christine/Documents/計算機演算法/HW1/MergeSort/MergeSort/input.txt"; sourceTree = "<absolute>"; };
+		CBEDF07E2437114B0092AA09 /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEDF076243711300092AA09 /* main.cpp */,
+				CBEDF07D2437113E0092AA09 /* input.txt */,
+				CBEDF07E2437114B0092AA09 /* output.txt */,
 			);
 			path = MergeSort;
 			sourceTree = "<group>";
