@@ -7,7 +7,7 @@ using namespace std;
 
 void Merge(vector<int> &vec, int start, int mid, int end){
     
-    //create vector for in-place
+    //create vector 
     vector<int> v1; //first half
     vector<int> v2; //second half
     for(int i=start; i<=mid; i++){
@@ -80,6 +80,7 @@ int main(){
         exit(1);
     }
     
+    WriteFile << n << '\n'; //write first line(total numbers)
     for(int i=0; i<n; i++){ //read the sorted numbers in vector and write into file
         WriteFile << vec[i] << '\n';
     }
